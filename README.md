@@ -21,9 +21,12 @@
   Run the code `./transfer.sh` for style augmentation. Output will be stored in `./datasets/Cars_aug`.
 
 2. N2D transfer, run the code `./train.sh`, where `sample_path` is the dataset path.
+  * Style mix framework:
   ![Framework](./imgs/Style_mix.png)
+  * Night to day image translation vis results:
   ![Framework](./imgs/vis_d.png)
 4. Detection evaluation model: [faster_rcnn model](https://drive.google.com/file/d/1Do17QzaR4G55n51qF68qLtikGVcn7AG3/view?usp=sharing)
+  * after translation, detection vis results ploted on nighttime images:
   ![Framework](./imgs/vis_n.png)
 6. Faster RCNN code is based on [faster_rcnn code](https://github.com/jwyang/faster-rcnn.pytorch/tree/pytorch-1.0), please follow the project for compiling.
 
