@@ -27,7 +27,7 @@
   ![Framework](./imgs/vis_d.png)
 3. Detection evaluation model: [faster_rcnn model](https://drive.google.com/file/d/1Do17QzaR4G55n51qF68qLtikGVcn7AG3/view?usp=sharing)
   * N2D translation, detection results:
-  ![Framework](./imgs/N2D_table.png)
+  ![Framework](./imgs/n2d_table.png)
   * after translation, detection vis results ploted on nighttime images:
   ![Framework](./imgs/vis_n.png)
 4. Faster RCNN code is based on [faster_rcnn code](https://github.com/jwyang/faster-rcnn.pytorch/tree/pytorch-1.0), please follow the project for compiling.
