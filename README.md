@@ -1,15 +1,17 @@
 ## N2D-transfer
 [Let There be Light: Improved Traffic Surveillance via Detail Preserving Night-to-Day Transfer](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9435348)
+![Framework](./imgs/network.png)
 
-## [Data link](https://drive.google.com/drive/folders/1GQYFej223oaaXycFpYryVM4TrNUIwvZ9?usp=sharing)
+## [Datasets](https://drive.google.com/drive/folders/1GQYFej223oaaXycFpYryVM4TrNUIwvZ9?usp=sharing)
   include 1000 daytime images, 1000 nighttime images(night1, night2, night3, night4, each has 250 images.)
 
 ## Requirements
   ```shell
-  * Python 3.7.3
-  * PyTorch 1.0.0
+  Python 3.7.3
+  pyTorch 1.0.0
   ```
-3. For style augmentation, first aug all permutations first. Data is organized as following:
+## Train
+1. For style augmentation, first aug all permutations first. Data is organized as following:
 
 ```shell
 --Style
@@ -38,3 +40,6 @@
   year={2021}
 }
 ```
+## Acknowledments
+[WCT2](https://github.com/clovaai/WCT2)
+[Faster R-CNN](https://github.com/jwyang/faster-rcnn.pytorch/tree/pytorch-1.0)
