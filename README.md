@@ -1,5 +1,5 @@
 ## N2D-transfer
-[Let There be Light: Improved Traffic Surveillance via Detail Preserving Night-to-Day Transfer](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9435348)
+[Paper: Let There be Light: Improved Traffic Surveillance via Detail Preserving Night-to-Day Transfer](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9435348)
 
 ![Framework](./imgs/Pipeline.png)
 
@@ -42,6 +42,5 @@
 }
 ```
 ## Acknowledments
-[WCT2](https://github.com/clovaai/WCT2)
-
-[Faster R-CNN](https://github.com/jwyang/faster-rcnn.pytorch/tree/pytorch-1.0)
+* [WCT2](https://github.com/clovaai/WCT2)
+* [Faster R-CNN](https://github.com/jwyang/faster-rcnn.pytorch/tree/pytorch-1.0)
